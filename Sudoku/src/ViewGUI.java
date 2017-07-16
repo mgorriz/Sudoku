@@ -95,6 +95,8 @@ public class ViewGUI extends JFrame {
 				
 		for (int i=0;i<81;i++) {
 			jField[i] = new JFormattedTextField();
+			jField[i].setHorizontalAlignment(JFormattedTextField.CENTER);
+		    
 			jField[i].setFont(new Font("Dialog", Font.PLAIN, 24));
 			jField[i].setName("R"+Integer.toString(i%9+1)+"C"+Integer.toString(i/9));
 			jField[i].setBounds(POSSTART+ (i%9)*(BOXWIDTH+BOXGAP), 
