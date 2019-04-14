@@ -36,6 +36,7 @@ public class ControllerGUI implements Observer, ActionListener {
 			model.zaehlen();
 			break;
 */
+		case 
 		default:
 			System.out.println("Unbekannte Action " + ae.getActionCommand());
 			break;
