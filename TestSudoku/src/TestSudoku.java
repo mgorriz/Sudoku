@@ -37,7 +37,7 @@ public class TestSudoku {
 		0, 0, 0, 0, 8, 0, 0, 7, 9};
 	*/
 	
-	/*
+	
 	// This is a really sparse Sudoku with minimum of 17 values set
         int[] testInput = {	
         	5, 0, 0, 0, 7, 0, 0, 0, 0, 
@@ -49,7 +49,7 @@ public class TestSudoku {
 		0, 6, 0, 0, 0, 0, 0, 8, 0,  
 		0, 0, 0, 0, 0, 9, 0, 0, 5,  
 		0, 0, 0, 0, 0, 0, 0, 0, 0};
-	*/	
+		
     	// General template 
         /*
         int[] testInput = {	
@@ -77,7 +77,7 @@ public class TestSudoku {
 	*/
 	
     	// Hard Sudoku 
-	 	
+	/* 	
 	int[] testInput = {	
 		0, 0, 0, 1, 0, 0, 5, 0, 2, 
 		0, 0, 0, 0, 9, 0, 0, 0, 0,  
@@ -88,7 +88,7 @@ public class TestSudoku {
 		0, 0, 0, 7, 0, 4, 0, 0, 8,  
 		0, 0, 0, 0, 0, 0, 7, 0, 9,  
 		3, 5, 0, 0, 0, 0, 0, 0, 6 };
-	
+	*/
 
         // int[] testOutput = new int[81];
 	    
