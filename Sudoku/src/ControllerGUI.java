@@ -3,7 +3,7 @@ import java.awt.event.ActionListener;
 import java.util.Observable;
 import java.util.Observer;
 
-
+@SuppressWarnings("deprecation")
 public class ControllerGUI implements Observer, ActionListener {
 
 	private Model model;
@@ -22,7 +22,7 @@ public class ControllerGUI implements Observer, ActionListener {
 	}
 	
 	@Override
-	public void update(Observable arg0, Object arg1) {
+	public void update( Observable arg0, Object arg1) {
 		if(arg0 == model){
 //			view.getText().setText(String.valueOf(model.getZahl()));
 		}
@@ -36,7 +36,6 @@ public class ControllerGUI implements Observer, ActionListener {
 			model.zaehlen();
 			break;
 */
-		case 
 		default:
 			System.out.println("Unbekannte Action " + ae.getActionCommand());
 			break;
