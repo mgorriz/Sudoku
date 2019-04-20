@@ -6,7 +6,7 @@ import sudokuMath.*;
 
 
 
-public class TestSudoku {
+public class ConsoleTestSudoku {
 
     public static void main(String[] args) {
 	
@@ -24,7 +24,7 @@ public class TestSudoku {
         			0, 0, 4, 6, 9, 0, 1, 7, 3,  
         			0, 0, 0, 0, 0, 1, 0, 0, 4 };
     	*/
-	/*
+	
         int[] testInput = {	
         	5, 3, 0, 0, 7, 0, 0, 0, 0, 
 		6, 0, 0, 1, 9, 5, 0, 0, 0,  
@@ -35,9 +35,9 @@ public class TestSudoku {
 		0, 6, 0, 0, 0, 0, 2, 8, 0,  
 		0, 0, 0, 4, 1, 9, 0, 0, 5,  
 		0, 0, 0, 0, 8, 0, 0, 7, 9};
-	*/
 	
 	
+	/*
 	// This is a really sparse Sudoku with minimum of 17 values set
         int[] testInput = {	
         	5, 0, 0, 0, 7, 0, 0, 0, 0, 
@@ -49,7 +49,7 @@ public class TestSudoku {
 		0, 6, 0, 0, 0, 0, 0, 8, 0,  
 		0, 0, 0, 0, 0, 9, 0, 0, 5,  
 		0, 0, 0, 0, 0, 0, 0, 0, 0};
-		
+	*/	
     	// General template 
         /*
         int[] testInput = {	
