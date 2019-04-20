@@ -9,6 +9,7 @@ public class ControllerGUI implements Observer, ActionListener {
 	private Model model;
 	private ViewGUI view;
 	
+	@SuppressWarnings("deprecation")
 	public ControllerGUI(Model model, ViewGUI view){
 		this.model = model;
 		this.view = view;
@@ -36,7 +37,6 @@ public class ControllerGUI implements Observer, ActionListener {
 			model.zaehlen();
 			break;
 */
-		case 
 		default:
 			System.out.println("Unbekannte Action " + ae.getActionCommand());
 			break;
